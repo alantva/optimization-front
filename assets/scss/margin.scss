@@ -1,0 +1,87 @@
+$base-margin: 5px;
+
+.m {
+  &a {
+    &-1 {
+      margin: $base-margin;
+    }
+    &-2 {
+      margin: 2 * $base-margin;
+    }
+    &-3 {
+      margin: 3 * $base-margin;
+    }
+  }
+  &x {
+    &-1 {
+      margin-left: $base-margin;
+      margin-right: $base-margin;
+    }
+    &-2 {
+      margin-left: 2 * $base-margin;
+      margin-right: 2 * $base-margin;
+    }
+    &-3 {
+      margin-left: 3 * $base-margin;
+      margin-right: 3 * $base-margin;
+    }
+  }
+  &y {
+    &-1 {
+      margin-top: $base-margin;
+      margin-bottom: $base-margin;
+    }
+    &-2 {
+      margin-top: 2 * $base-margin;
+      margin-bottom: 2 * $base-margin;
+    }
+    &-3 {
+      margin-top: 3 * $base-margin;
+      margin-bottom: 3 * $base-margin;
+    }
+  }
+  &t {
+    &-1 {
+      margin-top: $base-margin;
+    }
+    &-2 {
+      margin-top: 2 * $base-margin;
+    }
+    &-3 {
+      margin-top: 3 * $base-margin;
+    }
+  }
+  &r {
+    &-1 {
+      margin-right: $base-margin;
+    }
+    &-2 {
+      margin-right: 2 * $base-margin;
+    }
+    &-3 {
+      margin-right: 3 * $base-margin;
+    }
+  }
+  &b {
+    &-1 {
+      margin-bottom: $base-margin;
+    }
+    &-2 {
+      margin-bottom: 2 * $base-margin;
+    }
+    &-3 {
+      margin-bottom: 3 * $base-margin;
+    }
+  }
+  &l {
+    &-1 {
+      margin-left: $base-margin;
+    }
+    &-2 {
+      margin-left: 2 * $base-margin;
+    }
+    &-3 {
+      margin-left: 3 * $base-margin;
+    }
+  }
+}

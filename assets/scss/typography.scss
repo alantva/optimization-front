@@ -1,0 +1,75 @@
+
+.text {
+  &--primary {
+    color: $primary;
+  }
+  &--secondary {
+    color: $secondary;
+  }
+  &--terciary {
+    color: $tertiary;
+  }
+  &--white {
+    color: #ffffff;
+  }
+  &--underline {
+    text-decoration: underline;
+  }
+  &--pointer {
+    cursor: pointer;
+  }
+  &--bold {
+    font-weight: 700;
+  }
+  &--action {
+    cursor: pointer;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.title {
+  font-style: normal;
+  font-size: 26px;
+}
+
+.body-1 {
+  font-style: normal;
+  font-size: 14px;
+}
+
+.caption {
+  font-style: normal;
+  font-size: 11px;
+}
+
+.action {
+  &--green {
+    cursor: pointer;
+    transition: color .2s;
+
+    &:hover {
+      color: rgba(81, 145, 41, 1);
+    }
+  }
+
+  &--blue {
+    cursor: pointer;
+    transition: color .2s;
+
+    &:hover {
+      color: rgba(43, 169, 222, 1);
+    }
+  }
+
+  &--red {
+    cursor: pointer;
+    transition: color .2s;
+
+    &:hover {
+      color: rgba(255, 91, 91, 1);
+    }
+  }
+}
